@@ -1,0 +1,167 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    font-size: 120%;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.banner{
+    padding: auto;
+    background-color: rgba(15, 3, 46, 0.541);
+    background-size: cover;
+    background-position: center;
+}
+a{
+    border: 1;
+    outline: 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+ .container ul{
+    
+    top: 0;
+    height: 10vh;
+    width: 100vw;
+    background: #000; 
+    display: flex; 
+    padding: 0 30px;
+    justify-content:flex-start;
+    align-items: center;
+ }  
+ .container ul li {
+    justify-content: flex-end; 
+    list-style: none;
+ }
+ .container li a{
+ 
+    display: inline-block;
+    padding: 10px;
+    margin-left: 5px;
+    list-style: none;
+    color: #fff;
+    cursor:pointer;
+    font-weight: 600;
+    border: none;
+    text-decoration: none;
+ }
+ .container li a:hover{
+     color: #24e0e3;
+     border-bottom: #24e0e3 2px solid;
+
+ }
+ .container h2 {
+    color: #fff;
+
+ }
+ .container h2:hover{
+    cursor: pointer;
+   
+ }
+ .ps{
+    margin-left: 60vw;
+ }
+ .container .pri{
+    color: #24e0e3 ;}
+
+  /* durga code  */
+  .shiba{
+    display: flex;
+    align-items: center;
+    justify-content: center
+    ;
+  }
+  .card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 100px);
+  }
+  
+  button:hover {
+    background: #7c7c7c6b;
+  }
+  
+  h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+  
+  .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
